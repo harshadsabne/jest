@@ -302,7 +302,7 @@ For example, many node projects prefer to put their tests in a `tests` directory
 
 An array of file extensions that test files might have. Jest uses this when searching for tests to run.
 
-This is useful if, for example, you are writting test files using CoffeeScript with a `.coffee` file extension. In such a scenario, you can use `['js', 'coffee']` to make Jest find files that end in both `.js` and `.coffee`. (Don't for get to set up a coffeescript pre-processor using [`config.scriptPreprocessor`](#config-scriptpreprocessor-string) too!)
+This is useful if, for example, you are writing test files using CoffeeScript with a `.coffee` file extension. In such a scenario, you can use `['js', 'coffee']` to make Jest find files that end in both `.js` and `.coffee`. (Don't for get to set up a coffeescript pre-processor using [`config.scriptPreprocessor`](#config-scriptpreprocessor-string) too!)
 
 ### `config.testPathDirs` [array<string>]
 (default: `['<rootDir>']`)
